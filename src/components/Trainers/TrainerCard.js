@@ -3,7 +3,7 @@ import { jsx } from '@emotion/core';
 // import Socials from './Socials';
 
 const TrainerCard = ({ title, name, desc, img }) => (
-	<div className='card' style={{ width: '18rem' }}>
+	<div className='card my-3' style={{ width: '18rem' }}>
 		<img src={img} className='card-img-top' alt='...' height={200} />
 		<div className='card-body'>
 			<h5 className='card-title' style={{ color: '#ed563b' }}>
