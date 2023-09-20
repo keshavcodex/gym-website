@@ -3,8 +3,8 @@ import { jsx, css } from "@emotion/core";
 import DumbbellIcon from "../Image/dumbbell.png";
 
 const GymProgramCard = ({ title, desc }) => (
-  <div css={styles} className="card">
-    <img src={DumbbellIcon} alt="dumbbell" />
+  <div css={styles} className="">
+    <img  src={DumbbellIcon} alt="dumbbell" height={80} width={80}/>
     <div className="cardInfo">
       <h4>{title}</h4>
       <p>{desc}</p>
